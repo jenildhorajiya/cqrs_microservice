@@ -1,6 +1,6 @@
-### Golang CQRS Kafka gRPC Postgresql MongoDB Redis microservices example 👋
+### Golang CQRS Kafka gRPC Postgresql MongoDB Redis microservices
 
-#### 👨‍💻 Full list what has been used:
+#### 👨‍💻 Tech Stack:
 [Kafka](https://github.com/segmentio/kafka-go) as messages broker<br/>
 [gRPC](https://github.com/grpc/grpc-go) Go implementation of gRPC<br/>
 [PostgreSQL](https://github.com/jackc/pgx) as database<br/>
@@ -32,9 +32,9 @@ http://localhost:5001/swagger/index.html
 For local development 🙌👨‍💻🚀:
 
 ```
+make local or docker_dev // for run docker compose files
 make migrate_up // run sql migrations
 make mongo // run mongo init scripts
 make swagger // generate swagger documentation
-make local or docker_dev // for run docker compose files
 ```
 
