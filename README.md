@@ -1,5 +1,3 @@
-### Golang CQRS Kafka gRPC Postgresql MongoDB Redis microservices
-
 #### 👨‍💻 Tech Stack:
 [Kafka](https://github.com/segmentio/kafka-go) as messages broker<br/>
 [gRPC](https://github.com/grpc/grpc-go) Go implementation of gRPC<br/>
