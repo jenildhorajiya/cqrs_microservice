@@ -95,5 +95,6 @@ func InitConfig() (*Config, error) {
 		cfg.Kafka.Brokers = []string{kafkaBrokers}
 	}
 
+	if password := os.Getenv("POSTGRES_PASSWORD"); password != "" { cfg.Postgresql.Password = password }
 	return cfg, nil
 }
