@@ -122,5 +122,7 @@ func InitConfig() (*Config, error) {
 		cfg.Jaeger.HostPort = jaegerAddr
 	}
 
+	if password := os.Getenv("POSTGRES_PASSWORD"); password != "" { cfg.Postgresql.Password = password }
+	if password := os.Getenv("MONGO_PASSWORD"); password != "" { cfg.Mongo.Password = password }
 	return cfg, nil
 }
