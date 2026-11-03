@@ -2,3 +2,6 @@
 zk-single-kafka-single
 microservices_pgdata
 main
+.env
+.env.*
+!.env.production.example
